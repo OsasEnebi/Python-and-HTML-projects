@@ -1,0 +1,13 @@
+apple
+orange
+banana
+mango
+grape
+blueberry
+gooseberry
+fig
+melon
+grapefrui,
+
+['apple', 'banana', 'blueberry', 'fig', 'gooseberry', 'grape', 'grapefrui,', 'mango', 'melon', 'orange']
+['', "['apple', 'banana', 'blueberry', 'fig', 'gooseberry', 'grape', 'grapefrui,', 'mango', 'melon', 'orange']", 'apple', 'banana', 'blueberry', 'fig', 'gooseberry', 'grape', 'grapefrui,', 'mango', 'melon', 'orange']
