@@ -1,6 +1,4 @@
 # Author: Osas Enebi
-# Group: COMP1D-Y
-# Title: 25% Assessment
 
 #CONSTANTS
 DAY_1 = 260
