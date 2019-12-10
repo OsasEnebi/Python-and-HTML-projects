@@ -1,0 +1,21 @@
+nav {position: absolute; top: 60px; left: 20px; }
+nav a {
+	display: block;
+	width: 70px;
+	margin: auto;
+	}
+nav a img.hid {
+	width: 300px; 
+	height: 224px; 
+	position: absolute; 
+	left: 120px; 
+	top: 50px; 
+	visibility: hidden;
+	}
+nav a:hover img.hid {visibility: visible;}
+#pix {
+	width: 100%; 
+	height: 280px;  /* 224 (image height) + 50 (from top of screen) = 274 + 6px for luck! = 280  */
+	}
+
+	/* add the footer styles here to display footer in different background colour, center the text and change the font colour */

@@ -1,0 +1,33 @@
+body{
+background-color:#f4ffe4;
+color:#333333;
+
+}
+h1{
+text-indent:140px;
+font-family:Georgia,"Times New Roman",serif;
+background-image:url("trillium.gif");
+background-repeat:no-repeat;
+background-position:left;
+background-color:#d5edb3;
+color:#5c743d;
+}
+h2{
+background-color:#d5edb3;
+color:#5c743d;
+background-image:url("trillumbg.gif");
+}
+h3{
+color:orange;
+font-family:arial, sans-serif;
+}
+footer{
+font-family:Georgia,"Times New Roman",serif;
+font-size:0.8em;
+font-style:italic;
+text-align:center;
+}
+companyname{
+color:#5c743d;
+}
+

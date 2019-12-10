@@ -1,0 +1,51 @@
+<!DOCTYPE HTML> 
+<html> 
+       <head> 
+
+         <title> Pizza Online Order Forms </title>
+         <meta charset ="utf 8">
+      </head>
+      <body> 
+           <h1> CIT Pizza</h1>
+           <h2> Pizza Order Form</h2>
+           <form method = "get" action="http://atlantis.cit.ie/displayavalues.php" target="_blank">
+             <p> 
+                  <label> First name:</label> <input type ="text" name="firstname"><br/>
+                  <label> Last name:</label> <input type="text" name="lastname"><br/>
+                  <label> E-mail:</label> <input type ="text" name ="email"><br/>
+                  <label> Phone Number:</label> <input type ="number" name = "phoneNumber">
+            </p>
+            <p>
+            Pizza Topping:
+                  <label><input type="radio" name="pizzaTopping" value ="Ham_Mushroom"> Ham and Mushroom</label>
+                  <label><input type="radio" name="pizzaTopping" value ="Pepperoni">Pepperoni</label>
+                  <label><input type="radio" name="pizzaTopping" value ="Supreme">Supreme</label>
+                  <label><input type="radio" name="pizzaTopping" value ="Vegetarian">Vegetarian</label>
+             </p>
+             <p>
+             Pizza Sauce: 
+                <select name ="sauce">
+                  <option value ="tomato">Tomato</option>
+                  <option value ="pesto">Pesto</option>
+                  <option value ="secret sauce">Secret Sauce</option>
+               </select>
+             </p>
+             <p>
+            Optional Extras: 
+                 <input type = "checkbox" name = "extras" value ="extra_cheese">Extra Cheese
+                 <input type = "checkbox" name = "extras" value ="chilli_flakes">Chilli Flakes
+                 <input type = "checkbox" name = "extras" value ="gluten_free">Gluten Free Base
+             </p>
+             <p>
+                 Delivery Instructions:
+             <textarea name="delivery" cols ="80" rows = "5">
+             </textarea>
+             </p>
+             <p>
+                  <input type ="submit" value="Send My Order">
+                  <input type ="reset" value = "Cancel">
+                 
+             </p>
+           </form>
+
+

@@ -1,0 +1,10 @@
+.border{
+border:5px dashed navy;
+width:600px;
+}
+.header{
+font-size:20px;
+font-style:arial,sans-serif;
+color:white;
+background-color:gray;
+

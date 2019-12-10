@@ -1,0 +1,102 @@
+body{
+background-color:whitesmoke;
+}
+
+h1{
+text-align:center;
+font-family:Copperplate,Copperplate Gothic Light,fantasy; 
+font-size:2.75em;
+color:white;
+background-color:crimson;
+width:unlimited;
+height:50px;
+padding:30px;
+}
+
+h2{
+text-align:center;
+color:cadetblue;
+font-size:25px;
+width:250px;
+padding: 5px;
+border: 3px solid gray;
+margin: 0;
+}
+
+.div1 {
+background-color:crimson;
+color:white;
+text-align:center;
+font-size:1.1em;
+}
+
+
+.div2{
+background-color:crimson;
+color:white;
+text-align:center;
+width:unlimitedpx;
+height:125px;
+}
+
+.div3{
+background-color:lightgray;
+width:unlimited;
+height:80px;
+margin-bottom:-3.0em;
+}
+.div4{
+margin-left:625px;
+}
+
+a {
+position: relative;
+display: inline-block;
+margin: 15px 25px;
+outline: none;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+text-shadow: 0 0 1px rgba(255,255,255,0.3);
+font-size: 1.35em;
+padding:10px;
+}
+
+a:hover{
+color:lightgray;
+}
+a:after {
+content: '';
+position: absolute;
+left: 0;
+display: inline-block;
+height: 1em;
+width: 100%;
+border-bottom: 1px solid;
+margin-top: 10px;
+opacity: 0;
+-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+transition: opacity 0.35s, transform 0.35s;
+-webkit-transform: scale(0,1);
+transform: scale(0,1);
+}
+
+a:hover:after {
+opacity: 1;
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+
+iframe{
+margin-bottom:1.0em;
+margin-left:30em;
+}
+
+small{
+text-align:center;
+display:block;
+padding:10px;
+color:gray;
+}
